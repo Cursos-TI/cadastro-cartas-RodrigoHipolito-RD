@@ -35,8 +35,9 @@
         printf("Área: %.3f km²\n", area);
         printf("PIB: %.3f\n", pib);
         printf("Pontos turísticos: %d\n", ptur);
+        printf("-------------------------\n");
 
-        printf("Agora crie sua segunda carta!\n");
+        printf("\nAgora crie sua segunda carta!\n");
         char estado2[30], nome2[30], codigo2[5];
         int ptur2, pop2;
         float pib2, area2;
@@ -53,7 +54,7 @@
         printf("Defina a quantidade populacional: \n");
         scanf("%d", &pop2);
 
-        printf("Defina a área da cidade em km²: ");
+        printf("Defina a área da cidade em km²: \n");
         scanf("%f", &area2);
 
         printf("Defina o PIB: \n");
@@ -62,14 +63,17 @@
         printf("Defina a quantidade de pontos turísticos: \n");
         scanf(" %d", &ptur2);
 
-        printf("\n--- Dados da carta ---\n");
+        printf("\n--- Dados da carta 2 ---\n");
         printf("Estado: %s\n", estado2);
         printf("Código: %s\n", codigo2);
         printf("Cidade: %s\n", nome2);
         printf("População: %d\n", pop2);
-        printf("Área: %f km²\n", area2);
-        printf("PIB: %f\n", pib2);
+        printf("Área: %.3f km²\n", area2);
+        printf("PIB: %.3f\n", pib2);
         printf("Pontos turísticos: %d\n", ptur2);
+        printf("-------------------------\n");
+
+        printf("\nParabéns, você concluiu o cadastro das cartas!\n");
     
 
     return 0;
